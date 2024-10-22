@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Alexandre_Cabanel_-_Fallen_Angel.jpg/350px-Alexandre_Cabanel_-_Fallen_Angel.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.title{
+margin-top: 20px;
+margin-bottom: 20px;
+font-size: 100px;
+color: #002b54; 
+text-align: center;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.row {
+    display: flex;
+    gap: 20px;
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    border: 3px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: larger;
+}
+.square:hover {
+    background-color: #e0e0e0;
+}
+
+.square1{
+ background-image: url('https://www.shutterstock.com/image-illustration/hell-inferno-metaphor-souls-entering-600nw-2214585577.jpg');
+ background-size: cover;
+}
+
+.square2{
+ background-image: url('https://historymusings.wordpress.com/wp-content/uploads/2018/08/27b0e-1f2k7keivhev5jggvw67s6q.jpeg?w=584');
+ background-size: cover;
+}
+
+.square3{
+  background-image: url('https://darrellcreswell.wordpress.com/wp-content/uploads/2010/08/god_watches_over_you3.jpg');
+  background-size: cover;
+}
+
+.square4{
+background-image: url("https://i0.wp.com/darktemples.com/wp-content/uploads/2024/02/From-Angel-to-the-Fallen-Prince-of-Darkness.webp?ssl=1");
+background-size : cover;
+}
+
+.square5{
+ background-image: url('https://upload.wikimedia.org/wikipedia/commons/6/63/Peter_Paul_Rubens_-_Adam_and_Eve%2C_after_Titian%2C_between_1628_and_1629.jpg');
+ background-size: cover;
+}
+
+.square6{
+ background-image: url('https://media.istockphoto.com/id/894875516/vector/exclamation-point-sign-in-red-triangle-vector-icon.jpg?s=612x612&w=0&k=20&c=AYMHwOnNCaWz8j3ubjC24cBrlk_ei_oCB3kS-UwvZtU=');
+ background-size: cover; 
+}
+
+.square7{
+background-image: url("https://images.squarespace-cdn.com/content/v1/52c2df7ae4b0d215dded86fd/1619008638589-LSM9HQUGYM1U7SS8C3CL/Screen+Shot+2021-04-21+at+8.35.29+AM.png?format=1500w");
+background-size: cover;
+}
+
+.square8{
+background-image: url('https://www.madfientist.com/wp-content/uploads/2018/01/meaning-of-life.png');
+background-size: cover;
+}
+
+.square9{
+ background-image: url('https://static.wikia.nocookie.net/womenofthebible/images/2/2b/AdamEveEat.jpg/revision/latest/scale-to-width-down/250?cb=20100708033143');
+ background-size: cover;
+}
+
+.square10{
+   background-image: url('https://149471404.v2.pressablecdn.com/wp-content/uploads/2022/04/iStock-1126541751.jpg');
+   background-size: cover;
+}
+
+.square11{
+   background-image: url("https://cdn.pixabay.com/photo/2024/05/14/11/29/ai-generated-8760941_640.jpg");
+   background-size: cover;
+}
+
+.square12{
+background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf4uLf-memjc7P2e6dUNaZRKhVDAo5xAHDrw&s');
+background-size: cover;
+}
